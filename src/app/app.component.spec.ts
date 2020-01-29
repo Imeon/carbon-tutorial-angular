@@ -8,17 +8,11 @@ import { UIShellModule } from 'carbon-components-angular/ui-shell/ui-shell.modul
 
 describe('AppComponent', () => {
 	beforeEach(async(() => {
-		TestBed.configureTestingModule({
-			declarations: [
-				AppComponent
-			],
-			imports: [
-				RouterTestingModule,
-				TutorialHeaderModule
-			]
-		}).compileComponents();
-	}));
-
+			
+			TestBed.configureTestingModule({
+  declarations: [HeaderComponent],
+  imports: [UIShellModule]
+});
 	it('should create the app', async(() => {
 		const fixture = TestBed.createComponent(AppComponent);
 		const app = fixture.debugElement.componentInstance;
