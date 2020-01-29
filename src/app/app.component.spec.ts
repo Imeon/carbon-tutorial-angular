@@ -4,6 +4,8 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 import { TutorialHeaderModule } from './tutorial-header/tutorial-header.module';
 
+import { UIShellModule } from 'carbon-components-angular/ui-shell/ui-shell.module';
+
 describe('AppComponent', () => {
 	beforeEach(async(() => {
 		TestBed.configureTestingModule({
